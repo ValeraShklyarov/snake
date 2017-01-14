@@ -10,8 +10,16 @@ namespace snake
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world)))");
+            Point p1 = new Point(2,5,'*');
+            p1.Draw();
+
+            Point p2 = new Point(4, 7, '#');
+            p2.Draw();
+
+
             Console.ReadLine();
         }
+
+        
     }
 }
